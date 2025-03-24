@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "SUBZERO-MD~qQpQVR7L#uvRsp59ODsax5Ojg-TjTXy3XwPwtwBKXY2USf7-bK1M",
+SESSION_ID: process.env.SESSION_ID || "SUBZERO-MD~GJpBmToL#o-pz7CpLt7QllMJ_VbKHfww8MOM5jrYvaWcUb5KgOjk",
 // add your Session Id 
 AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
 // make true or false status auto seen
@@ -25,7 +25,7 @@ CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️�
 // chose custom react emojis by yourself 
 DELETE_LINKS: process.env.DELETE_LINKS || "false",
 // automatic delete links witho remove member 
-OWNER_NUMBER: process.env.OWNER_NUMBER || "263719647303",
+OWNER_NUMBER: process.env.OWNER_NUMBER || "+2349060245012",
 // add your bot owner number
 OWNER_NAME: process.env.OWNER_NAME || "Mr Emmanuel",
 // add bot owner name
@@ -59,7 +59,7 @@ DEV: process.env.DEV || "263719647303",
 //replace with your whatsapp number        
 ANTI_VV: process.env.ANTI_VV || "true",
 // true for anti once view 
-DEVELOPER_NUMBER: '263719647303@s.whatsapp.net', // Developer's number
+DEVELOPER_NUMBER: '+2349060245012@s.whatsapp.net', // Developer's number
 ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "log", // change it to 'same' if you want to resend deleted message in same chat 
 AUTO_RECORDING: process.env.AUTO_RECORDING || "false"
 // make it true for auto recoding 
